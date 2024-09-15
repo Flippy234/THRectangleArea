@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>init</Title>
+			<Shortcut>init</Shortcut>
+			<Description>Code snippet for main function</Description>
+			<Author>Ryan Appel</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>project</ID>
+					<ToolTip>Project Name</ToolTip>
+					<Default>Project Name</Default>
+				</Literal>
+				<Literal>
+					<ID>author</ID>
+					<ToolTip>Author Name</ToolTip>
+					<Default>Your Name</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="cpp"><![CDATA[
+// $project$
+// $author$
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+
+
+	(void)_getch();
+	return 0;
+}
+]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
